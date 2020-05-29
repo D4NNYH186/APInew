@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background-color:black;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url({{background}}.jpg); */
+    
+}
+
+.meme {
+    width: 555px;
+    height: 320px;
+}
+
+.pokelogo {
+    width: 655px;
+    height: 225px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+nav {
+    background-color:black
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+    padding:15px ;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.poke { 
+    display: flex;
+    justify-content: center;
+}
+
+.centerMe {
+    text-align: center;
+}
+
+.colorW{
+    color: white;
+    list-style: none;
+}
+
+.backgroundColor {
+    background-color:rgba(27, 24, 24, 0.8);
+    
+}
+
+.margin{
+    margin-left: 345px;
+    margin-right: 345px;
+}
+
+.margin2{
+    margin-left: 435px;
+    margin-right: 435px;
+}
+
+
+.fSize{
+    font-size: 35px;
+}
+
+a:visited {
+    color:grey;
+}
+
+.meme-logo{
+    height: 250px;
+    width: 450px;
+}

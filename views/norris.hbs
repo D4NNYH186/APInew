@@ -1,0 +1,20 @@
+<div>
+<div class= "poke">
+<img class=" backgroundColor" src='./norrisLogo.jpeg'>
+</div>
+<ul>
+    {{#each data}}
+    <li>{{@key}} : {{this}}</li>
+    {{/each}}
+</ul> --
+<div class= "margin backgroundColor colorW centerMe">
+<br>
+{{joke}}
+<br>
+</div>
+<div class= "poke backgroundColor margin">
+<form action='norris' method='POST'>
+    <input id='submit' type='submit' value='Chuck me a joke!'>
+</form>
+</div>
+</div>

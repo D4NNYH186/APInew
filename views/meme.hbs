@@ -1,0 +1,23 @@
+<div>
+<div class= "poke">
+<img class="meme-logo" src='./memeLogo.jpg'>
+</div>
+<ul>
+    {{#each data}}
+    <li>{{@key}} : {{this}}</li>
+    {{/each}}
+</ul>
+<div class= "centerMe">
+<img class= "meme" src="{{url}}" alt="">
+</div>
+<div class= "poke backgroundColor margin2">
+<form action='meme' method='POST'>
+    <label class="colorW" for='meme'>Choose Your Meme</label>
+    <label class="colorW" for= 'count'>count:</label>
+    <input id='count' type='number' name='count'>
+    <input id='submit' type='submit' value='I Meme It!'>
+</form>
+</div>
+</div>
+
+
